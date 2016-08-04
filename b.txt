@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 b11111111111111111111111
 ```````````````````````````````
+=======
+this is b file.
+this is second update.
+this is third update.
+>>>>>>> fdceb7fb2c16fad58a915565a4bf62cfb14f82b2
