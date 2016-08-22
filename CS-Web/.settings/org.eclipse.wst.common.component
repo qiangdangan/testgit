@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CS-Web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="CS-Util-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-Util/CS-Util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CS-DBEntity-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-DBEntity/CS-DBEntity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CS-BaseDataM-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-BaseDataM/CS-BaseDataM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CS-MessageM-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-MessageM/CS-MessageM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CS-ProjectM-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-ProjectM/CS-ProjectM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CS-WarehousingM-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CS-WarehousingM/CS-WarehousingM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="CS-Web"/>
+        <property name="java-output-path" value="/CS-Web/target/classes"/>
+    </wb-module>
+</project-modules>
