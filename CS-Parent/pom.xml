@@ -36,7 +36,7 @@
 		<mysql.version>5.1.38</mysql.version>
 		<jxl.version>2.6</jxl.version>
 		<ant.version>1.7.0</ant.version>
-		<junrar.version>0.7</junrar.version>
+		<junrar.version>1.0.1</junrar.version>
 		<poi.version>3.14</poi.version>
 		<gson.version>1.7.1</gson.version>
 		<cglib.version>3.2.4</cglib.version>
